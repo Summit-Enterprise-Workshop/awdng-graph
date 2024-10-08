@@ -2,7 +2,7 @@
   <img src="https://avatars.githubusercontent.com/u/17189275?s=200&v=4" alt="Logo" width="150" height="150" />
 </p>
 
-# Apollo GraphQL Enterprise GraphOS Workshop 
+# Apollo GraphQL Enterprise GraphOS Workshop
 
 <p align="center">
   <b>A comprehensive hands-on workshop covering GraphOS enterprise capabilities</b></br>
@@ -29,20 +29,24 @@
 <hr>
 
 #### ➤ Objectives
+
 In this workshop you will learn how to:
+
 - Secure your supergraph
 - Support real-time use cases with federated subscriptions
 - Extend your supergraph with coprocessors
 - Incrementally transfer ownerhsip of fields
 
 Afterwards, you'll be able to answer:
+
 - How your organization can leverage GraphOS enterprise capabilities
 
+#### ➤ Features
 
-#### ➤ Features 
 This workshop covers the following:
 
 ##### Security
+
 - Authentication
 - Authorization
 - Coprocessors
@@ -50,17 +54,19 @@ This workshop covers the following:
 - Operation Safelisting
 
 ##### Schema Collaboration and Development
+
 - Schema Update and Proposals
 - Progressive Overrides
 
 ##### Performance
+
 - Persisted Queries
 - Federated Subscriptions
-- *Demand Control*
-- *Entity Caching*
-
+- _Demand Control_
+- _Entity Caching_
 
 ## ➤ Maintainers
+
 This workshop is maintained by the following core individuals:
 
 - **Keith Halsall** - [@ausimity](https://github.com/ausimity])
@@ -69,15 +75,14 @@ This workshop is maintained by the following core individuals:
 - **Michael Berger** - [@berger-michael](https://github.com/berger-michael)
 - **Jesse Lovelace** - [@mentat](https://github.com/mentat)
 
-
 ## ☀︎ GraphQL Summit
+
 <br>
 <div align="center">
 <img src="https://summit.graphql.com/_next/static/media/logo-summit-by-apollo.0b868952.svg" width="120"/>
 <h4>The conference for
 API platform builders and leaders</h4>
 
-Join us in person and participate in **this** workshop by registering to attend [GraphQL Summit](https://summit.graphql.com/). 
+Join us in person and participate in **this** workshop by registering to attend [GraphQL Summit](https://summit.graphql.com/).
 
 </div>
-
