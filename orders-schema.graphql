@@ -25,17 +25,15 @@ type Order @key(fields: "id") {
   """
   buyer: User! @requiresScopes(scopes: [["order:buyer"]])
 
+  """
+  The date the order was made
+  """
+  orderDate: String
   test: String!
-
   """
   The total cost of the order
   """
   total: Float
-
-  """
-  The date the oder was made
-  """
-  orderDate: String
 
   """
   A list of all the items they purchased. This is the Variants, not the Products so we know exactly which
