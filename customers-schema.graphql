@@ -1,12 +1,7 @@
 extend schema
-  @link(url: "https://specs.apollo.dev/federation/v2.8", import:
-    [
-      "@key",
-      "@requires",
-      "@external",
-      "@tag",
-      "@shareable"
-    ]
+  @link(
+    url: "https://specs.apollo.dev/federation/v2.8"
+    import: ["@key", "@requires", "@external", "@tag", "@override"]
   )
 
 type Query {
@@ -25,10 +20,10 @@ type User @key(fields: "id") {
   address: String @tag(name: "private")
   phone: String
     @tag(name: "private")
-    @shareable
+    @override(from: "orders", label: "percent(50)")
   email: String!
     @tag(name: "private")
-    @shareable
+    @override(from: "orders", label: "percent(50)")
 
   """
   The user's active cart session. Once the cart items have been purchases, they transition to an Order
