@@ -18,6 +18,7 @@ type User @key(fields: "id") {
   firstName: String @tag(name: "private")
   lastName: String @tag(name: "private")
   address: String @tag(name: "private")
+  test: String!
   phone: String
     @tag(name: "private")
     @override(from: "orders", label: "percent(0)")
